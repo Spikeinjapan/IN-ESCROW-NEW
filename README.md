@@ -191,3 +191,12 @@ IN\_ESCROW is designed from the ground up around a threat model that targets the
 - **Immutable post-deployment** — no admin keys; all upgrades require shareholder consensus
 - **Continuous audit funding** — the Updates & Audits Wallet ensures ongoing third-party review
 
+## TEAM
+1) N-010 ( Random SC, Random Lotteries SC). C++
+2) dk.dev_ (Random SC). C++
+3) Poly (Well known) C++
+4) Spikeinjapan (volunteer Administration)
+5) Alex91 (Qubic Portal Trades Frontend)
+6) SerendipitySeeker (Qubic Portal Swap Frontend)
+
+  ( Division of tasks yet to be finalised. Need State reduction, optimization and hardening )
