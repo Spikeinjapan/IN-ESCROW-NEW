@@ -86,10 +86,10 @@ Subscriptions UNLOCKED — trustlessly, instantly, no admin key required
 48-hour window closes
         │
         ▼
-Gross proceeds collected
+Gross proceeds collected (per $81,200)
         │
-        ├──► 1.0%  →  SC Shareholders
-        └──► 0.5%  →  Updates & Audits Wallet
+        ├──► $800  →  SC Shareholders
+        └──► $400  →  Updates & Audits Wallet
                               │
                               ▼
                      Net proceeds available for distribution
