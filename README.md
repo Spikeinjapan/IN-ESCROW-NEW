@@ -123,9 +123,9 @@ Mulitples of $81,200 ($80,000 Liq + $1200 fees)
 
 | Allocation | Share |
 |---|---|
-| Core Liquidity Pools | `98.53%` |
-| Smart Contract Shareholders | `1.0%` |
-| Initial Update & Audit Pool | `0.47%` |
+| Core Liquidity Pools | `$80,000` |
+| Smart Contract Shareholders | `$800` |
+| Initial Update & Audit Pool | `$400` |
 
 ### QSWAP Premium Fee Distribution
 
