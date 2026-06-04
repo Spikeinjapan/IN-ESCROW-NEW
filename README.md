@@ -28,8 +28,7 @@ Emerging blockchain ecosystems — including Qubic — require deep liquidity fr
 - [Target Markets](#target-markets)
 - [Roadmap](#roadmap)
 - [Security](#security)
-- [Contributing](#contributing)
-- [Disclaimer](#disclaimer)
+  
 
 ---
 
