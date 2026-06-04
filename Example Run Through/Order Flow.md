@@ -97,9 +97,9 @@ Gross proceeds collected (per $81,200)
 
 | Fee Recipient | Rate |
 |---|---|
-| SC Shareholders | `1.0%` |
-| Updates & Audits Wallet | `0.5%` |
-| **Total fee** | **`1.5%`** |
+| SC Shareholders | `$800` |
+| Updates & Audits Wallet | `$400` |
+| **Total fee** | **`$1,200`** |
 
 ---
 
