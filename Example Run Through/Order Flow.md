@@ -1,4 +1,7 @@
 
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/10966ba0-929b-4776-b709-70e74c3ed7fe" />
+
+
 # qDOGE · Full Order Flow
 
 > End-to-end lifecycle of a wrapped asset on the Dual-Witness Hybrid-Attestation Network — from token proposal through investor distribution and, if required, full protocol unwind.
@@ -330,7 +333,7 @@ Register qDOGE
             └─► Community donates Qu  →  200M Qu threshold met
                     └─► Factory SC auto-unlocks subscriptions
                             └─► 48-hour block horizon deposit window opens
-                                    └─► Window closes  →  1.5% fee deducted
+                                    └─► Window closes  →  $1,200 fee deducted (per $81,200)
                                             └─► 40% → Investors
                                                 60% → QSWAP LP
                                                         └─► qDOGE LIVE ✓
