@@ -1,5 +1,5 @@
 
-# Dual-Witness Hybrid Attestation Network & Qubic Vault Escrow Protocol
+# Dual-Witness Hybrid Attestation Network & Qubic Vault for Batch Wrapping using an Escrow to pool and secure collateral
 
 ## Project Overview
 
