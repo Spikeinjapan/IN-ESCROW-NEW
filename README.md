@@ -195,7 +195,7 @@ IN\_ESCROW is designed from the ground up around a threat model that targets the
 1) N-010 ( Random SC, Random Lotteries SC). C++
 2) dk.dev_ (Random SC). C++
 3) Poly (Well known - 6 smart contracts[QEarn, Qvault, Qbay, Qraffle, Qusino, Qip]) C++
-4) Spikeinjapan (volunteer Administration)
+4) Spikeinjapan (Administration. Will remain as volunteer to push for more LPs and keep liquidity on Qubic.)
 5) Alex91 (Qubic Portal Trades Frontend)
 6) SerendipitySeeker (Qubic Portal Swap Frontend)
 
