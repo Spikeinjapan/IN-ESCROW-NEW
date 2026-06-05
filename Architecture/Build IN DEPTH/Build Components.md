@@ -8,7 +8,7 @@
 # Dual-Witness Hybrid-Attestation Network
 ### Qubic Vault Escrow Protocol · v6.1
 
-> **This is not a bridge.** It is a bounded-liability asynchronous redemption clearinghouse — a fundamentally safer cross-chain collateral model.
+> **This a collateral holding batch bridge that unwinds upon depeg.** 
 
 [![Version: v6.1](https://img.shields.io/badge/Version-v6.1-black)](.)
 [![Network: Qubic](https://img.shields.io/badge/Network-Qubic-brightgreen)](https://qubic.org)
