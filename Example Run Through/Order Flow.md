@@ -1,8 +1,9 @@
 
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/10966ba0-929b-4776-b709-70e74c3ed7fe" />
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/ed477f9c-5cba-4c56-848b-6723a573eab7" />
 
 
-# qDOGE · Full Order Flow
+
+# qPEPE · Full Order Flow
 
 > End-to-end lifecycle of a wrapped asset on the Dual-Witness Hybrid-Attestation Network — from token proposal through investor distribution and, if required, full protocol unwind.
 
@@ -113,16 +114,16 @@ Net proceeds
      │
      ├──► 40%  →  Verified Investors (direct allocation)
      │
-     └──► 60%  →  QSWAP Router  →  qDOGE/Qu liquidity pool seeded
+     └──► 60%  →  QSWAP Router  →  qPEPE/Qu liquidity pool seeded
                                             │
                                             ▼
-                                   qDOGE is LIVE on QSWAP ✓
+                                   qPEPE is LIVE on QSWAP ✓
 ```
 
 | Allocation | Share | Destination |
 |---|---|---|
 | Investor allocation | `40%` | Distributed to verified investor wallet pairs |
-| Liquidity allocation | `60%` | QSWAP router — seeds the `qDOGE/Qu` pool |
+| Liquidity allocation | `60%` | QSWAP router — seeds the `qPEPE/Qu` pool |
 
 > **Pre-deployment gate check required:** The 60% LP allocation requires the Factory SC to interact with the QSWAP SC programmatically via `depositLiquidity()`. If the router is unavailable at close, a fallback manual LP seeding path with SC Shareholder sign-off must be available.
 
@@ -144,7 +145,7 @@ All price monitoring uses **Time-Weighted Average Prices exclusively.** Spot pri
 | **Stage 2 · Warning** | < 90% of peg | 24 consecutive hours | Automated public broadcast alert |
 | **Stage 3 · Elevated** | < 85% of peg | 72 consecutive hours | Oracle node check frequency doubles automatically |
 | **Stage 4 · Declaration** | < 80% of peg | 7 consecutive days | 7-day Governance Dual Vote opens automatically |
-| **Stage 5 · Emergency** | < 40% of peg | 24 hours | Auto circuit-breaker — **FREEZE** |
+| **Stage 5 · Emergency** | < 40% of peg | 24 hours | 7-DAY governance in play |
 
 Each stage is triggered independently by a sustained TWAP threshold — not by discretionary governance action. Only Stages 4 and 5 interrupt normal protocol operation.
 
@@ -328,7 +329,7 @@ The payout is delivered directly to the EVM wallet address registered in the ori
 ```
 ACQUISITION
 
-Register qDOGE
+Register qPEPE
     └─► Public donation wallet opens
             └─► Community donates Qu  →  200M Qu threshold met
                     └─► Factory SC auto-unlocks subscriptions
@@ -336,7 +337,7 @@ Register qDOGE
                                     └─► Window closes  →  $1,200 fee deducted (per $81,200)
                                             └─► 40% → Investors
                                                 60% → QSWAP LP
-                                                        └─► qDOGE LIVE ✓
+                                                        └─► qPEPE LIVE ✓
 
 
 DEPEG & UNWIND (if required)
@@ -345,7 +346,7 @@ TWAP < 95% (1h)   →  Silent log
 TWAP < 90% (24h)  →  Public broadcast
 TWAP < 85% (72h)  →  Oracle frequency doubles
 TWAP < 80% (7d)   →  Dual Vote opens
-TWAP < 40% (24h)  →  Auto circuit-breaker FREEZE
+TWAP < 40% (24h)  →  Auto circuit-breaker. VOTE
 
     Dual Vote: SC Shareholders (Gate 1)  →  Investors (Gate 2)  →  Unwind APPROVED
 
