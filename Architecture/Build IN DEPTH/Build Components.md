@@ -298,10 +298,12 @@ If `Hash_Relayer != Hash_Oracle` for the same redemption request:
 All components are buildable now. Running streams A (Qubic SC), B (EVM), and C (off-chain daemons) in parallel compresses calendar time to approximately **18–22 weeks to testnet**.
 
 > ⚠️ The 128-byte payload schema must be specified and signed off **before Stream C begins** — it is the dependency that gates both the Trusted Relayer and Oracle Pool builds.
+>
+## Maximum values stated. Guidance sought from Incubation Team on Audit costs. 
 
 | Component | Status | Est. Weeks | Est. Cost @ $1,400/wk | Notes |
 |---|---|---|---|---|
-| Fortknox vault (Solidity) | ✅ Buildable now | 6 | $8,400 | Under 260 lines · no admin key |
+| Fortknox vault (Solidity) | ✅ Buildable now | 6 | $8,400 | no admin key |
 | qClaim token SC (Qubic C++) | ✅ Buildable now | 4 | $5,600 | Fixed genesis supply · RecoveryVaultAddr |
 | Qubic factory state machine | ✅ Buildable now | 10 | $14,000 | 9-state machine · tick-based |
 | Dual-chain fundraise | ✅ Buildable now | 9 | $12,600 | Block horizon tracking · wallet pairs |
