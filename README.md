@@ -97,7 +97,7 @@ IN\_ESCROW implements a **stacked fee model** across two revenue streams:
 | Source | Rate | Recipient |
 |---|---|---|
 | Standard LP Fee Share | `0.192%` per trade (64% of 0.30%) | Investor Allocations |
-| QSWAP Premium Fee | `0.500%` per trade | Investor Allocations |
+| QSWAP Premium Fee | `0.500%` per trade (of '0.700%') | Investor Allocations |
 | **Total Investor Yield** | **`0.692%` per trade** | |
 
 ### Economics Example
@@ -132,9 +132,10 @@ Total additional trade fee: **0.70%**
 
 | Recipient | Share |
 |---|---|
-| Investor Allocations | `0.50%` |
-| Smart Contract Shareholders | `0.10%` |
-| Updates & Audits Wallet | `0.10%` |
+| Investor Allocations (Specic LP) | `0.50%` |
+| Smart Contract Shareholders (ALL  Bridged LPs) | `0.10%` |
+| Updates & Audits Wallet (ALL  Bridged LPs)| `0.08%` |
+| Burn Funds for ALL SC (ALL  Bridged LPs) | `0.02%` |
 
 ### Updates & Audits Wallet
 
