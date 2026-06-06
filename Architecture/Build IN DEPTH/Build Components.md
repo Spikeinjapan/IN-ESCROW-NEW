@@ -147,7 +147,7 @@ All price monitoring uses **Time-Weighted Average Prices exclusively.** Spot pri
 | **Stage 2 · Warning** | TWAP < 90% for 24h | Public broadcast |
 | **Stage 3 · Elevated** | TWAP < 85% for 72h | Node check frequency doubles |
 | **Stage 4 · Declaration** | TWAP < 80% for 7d | Dual Vote opens |
-| **Stage 5 · Emergency** | TWAP < 40% for 24h | **Auto circuit-breaker FREEZE** |
+| **Stage 5 · Emergency** | TWAP < 40% for 24h | **Dual Vote Flagged URGENT** |
 
 Each stage is triggered independently by a sustained TWAP threshold — not by discretionary governance action. Only Stage 4 opens a governance vote. Stage 5 is fully autonomous.
 
